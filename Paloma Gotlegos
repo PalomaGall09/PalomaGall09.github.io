@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Paloma Gotlegos</title>
+</head>
+<body>
+<a href="./index.html">Home</a>
+<a href="./aboutme.html">About Me</a>
+<a href="./artwork.html">Artwork</a>
+<div>
+<h1>The Curious Mind of Paloma Gotlegos</h1>
+</div>
+<div>
+<img src="Pinksmile.jpg" width="150" height="150" alt="Paloma" />
+</div>
+<label for="happiness"><strong>How do you feel?</strong></label>
+<br>
+<span>Excuse me while I kill myself.</span>
+<input id="happiness" name="happiness" type="range" min="0" max="500" step="25">
+<span>My heart explodes with joy!</span>
+<br>
+<span><strong>What are you looking for?</strong></span>
+<br>
+<label>Meaning of Life</Label>
+<input type="checkbox" name="meaning of life">
+<label>Purpose</label>
+<input type="checkbox" name="Purpose">
+<label>Candy</label>
+<input type="checkbox" name="candy">
+<label>A place to put my boogers.</label>
+<input type="checkbox" name="booger">
+<label>The Exit</label>
+<input type="checkbox" name="exit">
+<br>
+<span><strong>Would you like some Kool-aid?</strong></span>
+<br>
+<label for="yes">Yes</label>
+<input id="yes" type="radio">
+<label label="no">No</label>
+<input id="no" type="radio">
+<br>
+<label for="pokemon"><strong>Who's your favorite Pokemon?</strong></label>
+<select id="pokemon" name="pokemon">
+  <option value="pikachu">Pikachu</option>
+  <option value="squirtle">Squirtle</option>
+  <option value="eevee">Eevee</option>
+  <option value="what">What are you talking about?</option>
+</body>
+</html>
